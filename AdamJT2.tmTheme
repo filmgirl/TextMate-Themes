@@ -33,9 +33,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#1E1E1E</string>
+				<string>#212223</string>
 				<key>foreground</key>
-				<string>#5C5C5C</string>
+				<string>#535353</string>
 			</dict>
 		</dict>
 		<dict>
