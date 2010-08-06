@@ -258,6 +258,17 @@
 				<string>#00162B40</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>String interpolation</string>
+			<key>scope</key>
+			<string>constant.character.escaped, string source - string.unquoted.embedded, string string source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999999</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>A36AC437-7D37-4DB3-94D1-8958C454B2F3</string>
