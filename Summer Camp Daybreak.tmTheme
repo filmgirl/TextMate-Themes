@@ -5,7 +5,7 @@
 	<key>author</key>
 	<string>Chris Thomas</string>
 	<key>name</key>
-	<string>Summer Camp</string>
+	<string>Summer Camp Daybreak</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -22,7 +22,7 @@
 				<key>lineHighlight</key>
 				<string>#14120B</string>
 				<key>selection</key>
-				<string>#2B271980</string>
+				<string>#2B2719BF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -37,7 +37,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#2B2719</string>
+				<string>#5B522D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -224,6 +224,6 @@
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>07A450F4-B4B6-4B77-93BC-B26D7DC10EDE</string>
+	<string>02A471A5-C678-496E-A388-AF96799BDD10</string>
 </dict>
 </plist>
