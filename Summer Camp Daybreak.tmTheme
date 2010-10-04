@@ -20,9 +20,9 @@
 				<key>invisibles</key>
 				<string>#F3771D</string>
 				<key>lineHighlight</key>
-				<string>#14120B</string>
+				<string>#262214CC</string>
 				<key>selection</key>
-				<string>#2B2719BF</string>
+				<string>#322D1ABF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -88,6 +88,17 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#3588CA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Entity</string>
+			<key>scope</key>
+			<string>entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#97EF0C</string>
 			</dict>
 		</dict>
 		<dict>
