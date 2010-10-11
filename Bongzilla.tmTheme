@@ -125,6 +125,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#BEF895</string>
 			</dict>
 		</dict>
 		<dict>
@@ -213,7 +215,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#F9FFFF</string>
 			</dict>
 		</dict>
 	</array>
