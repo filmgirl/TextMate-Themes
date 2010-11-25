@@ -12,7 +12,7 @@
 				<key>background</key>
 				<string>#040A12</string>
 				<key>caret</key>
-				<string>#000000</string>
+				<string>#E6E6E6</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 				<key>invisibles</key>
@@ -240,6 +240,94 @@
 			<dict>
 				<key>foreground</key>
 				<string>#2193AE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby String</string>
+			<key>scope</key>
+			<string>source.ruby string, string.quoted.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FEFAC6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Method</string>
+			<key>scope</key>
+			<string>ruby.source, meta.function.method.without-arguments.ruby, keyword.control.def.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BD2241</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Method Name</string>
+			<key>scope</key>
+			<string>entity.name.function.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C7F945</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Module Name</string>
+			<key>scope</key>
+			<string>source.ruby, meta.module.ruby, keyword.control.module.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E94526</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Class</string>
+			<key>scope</key>
+			<string>source.ruby, support.class.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EC6828</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Source</string>
+			<key>scope</key>
+			<string>source.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Array</string>
+			<key>scope</key>
+			<string>punctuation.section.array.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FDF05D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Keyword</string>
+			<key>scope</key>
+			<string>source.ruby, meta.function.method.without-arguments.ruby, keyword.control.def.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BD2241</string>
 			</dict>
 		</dict>
 	</array>
