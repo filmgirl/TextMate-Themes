@@ -188,6 +188,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#66FFCC</string>
 			</dict>
 		</dict>
 		<dict>
