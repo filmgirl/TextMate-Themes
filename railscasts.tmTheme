@@ -10,7 +10,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#323232</string>
+				<string>#2B2B2B</string>
 				<key>caret</key>
 				<string>#FFFFFF</string>
 				<key>foreground</key>
@@ -31,7 +31,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#282828</string>
+				<string>#232323</string>
 			</dict>
 		</dict>
 		<dict>
@@ -108,17 +108,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#D0D0FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Block Parameter</string>
-			<key>scope</key>
-			<string>variable.other.block</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#E6E1DC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -282,87 +271,8 @@
 				<string>#2F33AB</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>TODO Category Name</string>
-			<key>scope</key>
-			<string>todo.category.name</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#E8BF6A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>TODO Urgent</string>
-			<key>scope</key>
-			<string>todo.task.urgent</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FEFF00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>TODO Category Extras</string>
-			<key>scope</key>
-			<string>todo.category.extras</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#BC9458</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>TODO Task Dormant</string>
-			<key>scope</key>
-			<string>todo.task.dormant</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#807C79</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>TODO Task Complete</string>
-			<key>scope</key>
-			<string>todo.task.complete</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DA4939</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>TODO Task Question</string>
-			<key>scope</key>
-			<string>todo.task.question</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#82A7E2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>TODO Task Large</string>
-			<key>scope</key>
-			<string>todo.task.large</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A5C261</string>
-			</dict>
-		</dict>
 	</array>
 	<key>uuid</key>
-	<string>FC05BACA-10E3-4636-82C5-758C2334DA9D</string>
+	<string>B80CD0D8-613C-46FD-9C06-A1201108BC2A</string>
 </dict>
 </plist>
