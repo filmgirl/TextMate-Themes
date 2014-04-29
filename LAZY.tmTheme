@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>author</key>
 	<string>Domenico Carbotta</string>
 	<key>name</key>
-	<string>Bongzilla</string>
+	<string>LAZY</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#1F1F1F</string>
+				<string>#FFFFFF</string>
 				<key>caret</key>
-				<string>#FFFFFFA6</string>
+				<string>#7C7C7C</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string>#000000</string>
 				<key>invisibles</key>
-				<string>#FFFFFF40</string>
+				<string>#B6B6B6</string>
 				<key>lineHighlight</key>
-				<string>#FFFFFF0F</string>
+				<string>#EFFCA68F</string>
 				<key>selection</key>
-				<string>#253B76</string>
+				<string>#E3FC8D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -35,7 +35,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#AEAEAE</string>
+				<string>#8C868F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -48,7 +48,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF593E</string>
+				<string>#3B5BB5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -61,33 +61,33 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF6400</string>
+				<string>#3B5BB5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Latex Entity</string>
+			<key>scope</key>
+			<string>text.tex.latex entity</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#D62A28</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>keyword, storage</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFCC66</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Storage</string>
-			<key>scope</key>
-			<string>storage</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#FFCC66</string>
+				<string>#FF7800</string>
 			</dict>
 		</dict>
 		<dict>
@@ -100,7 +100,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#78CE91</string>
+				<string>#409B1C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -113,7 +113,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#8DA6CE</string>
+				<string>#3B5BB5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -125,8 +125,6 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
-				<key>foreground</key>
-				<string>#BEF895</string>
 			</dict>
 		</dict>
 		<dict>
@@ -139,7 +137,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#AB2A1D</string>
+				<string>#990000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -165,7 +163,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#FF6400</string>
+				<string>#3B5BB5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -178,7 +176,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF6400</string>
+				<string>#671EBB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -191,7 +189,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#BECDE6</string>
+				<string>#3E4558</string>
 			</dict>
 		</dict>
 		<dict>
@@ -202,24 +200,92 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7F90AA</string>
+				<string>#3A4A64</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>entity.name.section</string>
+			<string>OCaml variant</string>
 			<key>scope</key>
-			<string>entity.name.section</string>
+			<string>keyword.type.variant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F9FFFF</string>
+				<string>#7F90AA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OCaml operator</string>
+			<key>scope</key>
+			<string>source.ocaml keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OCaml infix operator</string>
+			<key>scope</key>
+			<string>source.ocaml keyword.operator.symbol.infix</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#3B5BB5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OCaml prefix operator</string>
+			<key>scope</key>
+			<string>source.ocaml keyword.operator.symbol.prefix</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#3B5BB5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OCaml infix f-p operator</string>
+			<key>scope</key>
+			<string>source.ocaml keyword.operator.symbol.infix.floating-point</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OCaml prefix f-p operator</string>
+			<key>scope</key>
+			<string>source.ocaml keyword.operator.symbol.prefix.floating-point</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OCaml f-p constant</string>
+			<key>scope</key>
+			<string>source.ocaml constant.numeric.floating-point</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>5FA1AC2D-8D58-4A47-BFF7-CF5D25D30E65</string>
+	<string>A1E55FCB-3CD2-4811-9E73-D9B87419443A</string>
 </dict>
 </plist>

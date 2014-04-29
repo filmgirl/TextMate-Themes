@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html><head><style id="xml-viewer-style">/*
+ * Copyright (C) 2011 Google Inc. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above
+ * copyright notice, this list of conditions and the following disclaimer
+ * in the documentation and/or other materials provided with the
+ * distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY GOOGLE INC. AND ITS CONTRIBUTORS
+ * âAS ISâ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL GOOGLE INC.
+ * OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+div.header {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+
+div.collapsible > div.hidden {
+    display:none;
+}
+
+.pretty-print {
+    margin-top: 1em;
+    margin-left: 20px;
+    font-family: monospace;
+    font-size: 13px;
+}
+
+#webkit-xml-viewer-source-xml {
+    display: none;
+}
+
+.collapsible-content {
+    margin-left: 1em;
+}
+.comment {
+    whitespace: pre;
+}
+
+.button {
+    -webkit-user-select: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: -10px;
+    width: 10px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    vertical-align: bottom;
+}
+
+.collapse-button {
+    background-image: -webkit-canvas(arrowDown);
+    height: 10px;
+}
+
+.expand-button {
+    background-image: -webkit-canvas(arrowRight);
+    height: 11px;
+}
+</style></head><body><div id="webkit-xml-viewer-source-xml"><plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Sweyla Theme (674314)</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#0E0C00</string>
+				<key>caret</key>
+				<string>#FFFFFF</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+				<key>invisibles</key>
+				<string>#CAE2FB3D</string>
+				<key>lineHighlight</key>
+				<string>#FFFFFF24</string>
+				<key>selection</key>
+				<string>#323232</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>themes.sweyla.com</string>
+			<key>scope</key>
+			<string>meta.sweyla</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#B2371B</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#93AFD5</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Constant</string>
+			<key>scope</key>
+			<string>constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#64AA1A</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Constant</string>
+			<key>scope</key>
+			<string>constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#AF3B69</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Entity</string>
+			<key>scope</key>
+			<string>entity</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#B143F0</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Entity Function</string>
+			<key>scope</key>
+			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#B143F0</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Entity Name</string>
+			<key>scope</key>
+			<string>entity.name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#2B9E2B</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#B2371B</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Operator</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#0C10FF</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#B2371B</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Support</string>
+			<key>scope</key>
+			<string>support</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#56811A</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Support Function</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#852FBC</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#B1969B</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#AF3B69</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>String constant</string>
+			<key>scope</key>
+			<string>string constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#5A807D</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#B2371B</string>
+			</dict>
+		</dict>
+		
+	</array>
+	<key>uuid</key>
+	<string>3c73469e-347f-3199-9822-4df65f94964d</string>
+</dict>
+</plist></div><div class="header"><span>This XML file does not appear to have any style information associated with it. The document tree is shown below.</span><br /></div><div class="pretty-print" id="tree"><div class="collapsible" id="collapsible0"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;plist<span class="webkit-html-attribute"> <span class="webkit-html-attribute-name">version</span>="<span class="webkit-html-attribute-value">1.0</span>"</span>&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="collapsible" id="collapsible1"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Sweyla Theme (674314)</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible2"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;array&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="collapsible" id="collapsible3"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible4"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">background</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#0E0C00</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">caret</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#FFFFFF</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#FFFFFF</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">invisibles</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#CAE2FB3D</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">lineHighlight</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#FFFFFF24</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">selection</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#323232</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible5"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">themes.sweyla.com</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">meta.sweyla</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible6"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#B2371B</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible7"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Comment</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">comment</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible8"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#93AFD5</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible9"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Constant</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">constant</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible10"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#64AA1A</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible11"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Constant</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">constant.language</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible12"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#AF3B69</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible13"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Entity</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">entity</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible14"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#B143F0</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible15"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Entity Function</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">entity.name.function</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible16"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#B143F0</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible17"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Entity Name</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">entity.name</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible18"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#2B9E2B</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible19"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Keyword</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">keyword</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible20"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#B2371B</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible21"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Operator</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">keyword.operator</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible22"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#0C10FF</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible23"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Storage</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">storage</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible24"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#B2371B</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible25"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Support</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">support</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible26"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#56811A</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible27"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Support Function</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">support.function</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible28"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#852FBC</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible29"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">String</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">string</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible30"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#B1969B</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible31"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Variable</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">variable</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible32"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#AF3B69</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible33"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">String constant</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">string constant</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible34"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#5A807D</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /><div class="collapsible" id="collapsible35"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">name</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">Invalid</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">scope</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">invalid</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">settings</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="collapsible" id="collapsible36"><div class="expanded"><div class="line"><span class="button collapse-button" /><span class="webkit-html-tag">&lt;dict&gt;</span></div><div class="collapsible-content"><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">fontStyle</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string/&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">foreground</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">#B2371B</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/array&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;array&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/array&gt;</span></div></div></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;key&gt;</span><span class="text">uuid</span><span class="webkit-html-tag">&lt;/key&gt;</span></div><span class="text" /><div class="line"><span class="webkit-html-tag">&lt;string&gt;</span><span class="text">3c73469e-347f-3199-9822-4df65f94964d</span><span class="webkit-html-tag">&lt;/string&gt;</span></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;dict&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/dict&gt;</span></div></div></div><span class="text" /></div><div class="line"><span class="webkit-html-tag">&lt;/plist&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button" /><span class="webkit-html-tag">&lt;plist<span class="webkit-html-attribute"> <span class="webkit-html-attribute-name">version</span>="<span class="webkit-html-attribute-value">1.0</span>"</span>&gt;</span><span class="text">...</span><span class="webkit-html-tag">&lt;/plist&gt;</span></div></div></div></div></body></html>

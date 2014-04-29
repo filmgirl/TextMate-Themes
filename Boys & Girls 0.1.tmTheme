@@ -2,27 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>author</key>
-	<string>Chris Thomas</string>
 	<key>name</key>
-	<string>Summer Camp</string>
+	<string>Boys &amp; Girls 0.1</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#110F0A</string>
+				<string>#000306F2</string>
 				<key>caret</key>
-				<string>#F2F8CB</string>
+				<string>#E60065</string>
 				<key>foreground</key>
-				<string>#F2F8CB</string>
+				<string>#FFFFFF</string>
 				<key>invisibles</key>
-				<string>#F3771D</string>
+				<string>#FFFFFF1A</string>
 				<key>lineHighlight</key>
-				<string>#14120B</string>
+				<string>#4DD7FC1A</string>
 				<key>selection</key>
-				<string>#2B271980</string>
+				<string>#E60C6559</string>
 			</dict>
 		</dict>
 		<dict>
@@ -33,24 +31,20 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#16140D</string>
-				<key>fontStyle</key>
-				<string>italic</string>
+				<string>#090A0FFA</string>
 				<key>foreground</key>
-				<string>#2B2719</string>
+				<string>#404040</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword</string>
+			<string>String</string>
 			<key>scope</key>
-			<string>keyword, storage</string>
+			<string>string</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#A3ED4E</string>
+				<string>#00D8FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -63,20 +57,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#3FA2ED</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>User-defined constant</string>
-			<key>scope</key>
-			<string>constant</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#3A94DC</string>
+				<string>#E62286</string>
 			</dict>
 		</dict>
 		<dict>
@@ -88,8 +69,19 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>User-defined constant</string>
+			<key>scope</key>
+			<string>constant.character, constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#3588CA</string>
+				<string>#00D8FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -100,100 +92,145 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#F35E18</string>
+				<string>#E62286</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String</string>
+			<string>Keyword</string>
 			<key>scope</key>
-			<string>string</string>
+			<string>keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
-				<key>foreground</key>
-				<string>#F39B19</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String interpolation</string>
+			<string>Storage</string>
 			<key>scope</key>
-			<string>constant.character.escape, string source</string>
+			<string>storage</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
-				<key>foreground</key>
-				<string>#F3771D</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Preprocessor line</string>
+			<string>Inherited class</string>
 			<key>scope</key>
-			<string>meta.preprocessor</string>
+			<string>entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
-				<key>foreground</key>
-				<string>#F39B19</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Preprocessor directive</string>
+			<string>Class Name</string>
 			<key>scope</key>
-			<string>keyword.control.import</string>
+			<string>entity.name.type.module.ruby, entity.name.type.class.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#F3771D</string>
+				<string>bold underline</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Function name</string>
 			<key>scope</key>
-			<string>entity.name.function, support.function.any-method</string>
+			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function argument</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#E62286</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag name</string>
+			<key>scope</key>
+			<string>entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag attribute</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#E62286</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library function</string>
+			<key>scope</key>
+			<string>support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
-				<key>foreground</key>
-				<string>#7DDE12</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Type name</string>
+			<string>Library constant</string>
 			<key>scope</key>
-			<string>entity.name.type</string>
+			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#EEF890</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Inherited class name</string>
+			<string>Library class/type</string>
 			<key>scope</key>
-			<string>entity.other.inherited-class</string>
+			<string>support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#EEF890</string>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library variable</string>
+			<key>scope</key>
+			<string>support.other.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -203,27 +240,14 @@
 			<string>invalid</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#F32119</string>
 				<key>fontStyle</key>
-				<string>italic</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Invalid trailing whitespace</string>
-			<key>scope</key>
-			<string>invalid.deprecated.trailing-whitespace</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#F33A34</string>
-				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
+				<key>foreground</key>
+				<string>#FF0C00</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>07A450F4-B4B6-4B77-93BC-B26D7DC10EDE</string>
+	<string>E53DA166-6A3A-44BA-B651-C6D45D54B442</string>
 </dict>
 </plist>
